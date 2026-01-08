@@ -1,0 +1,51 @@
+Act as an expert Senior Frontend Engineer and UI/UX Designer.
+
+Build a modern, responsive, and high-performance landing page for the "ASIET ACM Student Chapter" (Association for Computing Machinery).
+
+### Tech Stack:
+- Framework: React (Vite)
+- Styling: Tailwind CSS
+- Animations: Framer Motion (Crucial for the "modern and clean" feel)
+- Icons: Lucide React
+- Font: Inter or Space Grotesk (Google Fonts)
+
+### Design System:
+- Primary Color: ACM Blue (#0085CA)
+- Theme: Clean, minimalist, but tech-focused. Use subtle gradients and glassmorphism (frosted glass) effects on cards to make it feel modern.
+- Background: A very clean off-white or light grey for the light theme, with a toggle for a "Midnight Blue" dark mode.
+
+### Required Sections (Single Page Scroll):
+
+1. **Navbar:** Sticky, glass-effect. Links: Home, About, Aswamedha '26, Team, Contact. Includes a "Join ACM" CTA button.
+
+2. **Hero Section:**
+   - Headline: "Innovating at ASIET"
+   - Subhead: "The Official Student Chapter of the Association for Computing Machinery."
+   - Visual: A high-quality abstract tech illustration or 3D element on the right.
+   - Animation: Staggered fade-in for text; the image should float slightly.
+
+3. **Featured Event (Aswamedha Focus):**
+   - A dedicated, high-priority section highlighting our upcoming Tech Fest participation.
+   - Title: "Catch us at Aswamedha"
+   - Content: Display 3 event cards (Blind Coding, Prompt Wars, Tech Scavenger Hunt).
+   - Interaction: Cards should scale up slightly and glow on hover.
+
+4. **About Us:**
+   - Short mission statement about revitalizing the chapter.
+   - A grid layout showing key benefits (Networking, Workshops, Distinguished Speakers).
+
+5. **The Team:**
+   - A clean carousel or grid for Chapter Officers.
+   - Cards should have a placeholder for a photo, Name, Role, and a LinkedIn icon.
+
+6. **Footer:**
+   - ASIET ACM branding.
+   - Social links.
+   - Copyright 2026.
+
+### Specific Animation Requirements:
+- Use `framer-motion` for scroll reveal effects (elements fade in and move up as the user scrolls down).
+- The buttons should have a "magnetic" feel or a nice sheen effect on hover.
+- Ensure the mobile menu has a smooth slide-in animation.
+
+Please structure the project with separate components for Header, Hero, EventCard, and Footer to keep the code clean. Start by generating the complete project structure and the Hero section.
